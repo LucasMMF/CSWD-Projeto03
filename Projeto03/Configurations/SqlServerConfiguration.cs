@@ -14,7 +14,7 @@ namespace Projeto03.Configurations
         /// </summary>
         public static string GetConnectionString()
         {
-            return @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=BDProjeto03;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False";
+            return @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=BDProjeto03;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
         }
     }
 }
